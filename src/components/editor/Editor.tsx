@@ -13,8 +13,8 @@ import { Article } from "../../types";
 import { v4 as uuidv4 } from "uuid";
 import { createParagraph, throttle, getEditedOrSelectedElements } from "../../utils";
 import { useSelectionMenu } from "../../hooks/useSelectionMenu";
+import { ARTICLE } from "../../mocks/paragraphs";
 
-const ARTICLE: Article = [createParagraph("first"),createParagraph("second"), createParagraph("third"),createParagraph("fourth"),createParagraph("fifth"),createParagraph("sixth")];
 
 export const Nbsp =  () => '\u00A0';
 

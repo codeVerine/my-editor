@@ -8,7 +8,6 @@ export const EditorContainer = styled.div`
 `
 
 export const Paragraph = styled.p`
-    border: 1px solid green;
     position: relative;
     &:after {
         content: "";
